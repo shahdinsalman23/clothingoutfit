@@ -299,12 +299,10 @@ export default function HeaderClient({ viewer, categories, cartCount }) {
       />
       <aside className={`shopmate-drawer-shdad ${drawerOpen ? "open-shdad" : ""}`} aria-label="Mobile menu">
         <div className="shopmate-drawer-head-shdad">
-          <Link href="/" className="shopmate-logo-shdad">
-            <span className="shopmate-logo-icon-shdad">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo.png" alt="Clothing Outfits" style={{ width: "24px", height: "24px", objectFit: "contain" }} />
-            </span>
-            <span className="shopmate-logo-text-shdad"> Clothing Outfits </span>
+           {/* Logo */}
+          <Link href="/" className="shopmate-logo-shdad" aria-label="ShopMate home">
+              <img src="/logomini.png" alt="ShopMate" style={{ width: "50px", height: "auto", objectFit: "contain" }} />
+               <span className="shopmate-logo-text-shdad header-logoad">Clothing Outfits</span>
           </Link>
           <button
             type="button"

@@ -70,7 +70,7 @@ export default function AdminSidebar({ isOpen, onClose, profile }) {
             <span className="shopmate-brand-icon-sidad">
               <Zap size={18} fill="currentColor" />
             </span>
-            <span className="shopmate-brand-text-sidad" Clothing Outfits </span>
+            <span className="shopmate-brand-text-sidad"> Clothing Outfits </span>
             <span className="shopmate-brand-badge-sidad">Admin</span>
           </Link>
           <button
