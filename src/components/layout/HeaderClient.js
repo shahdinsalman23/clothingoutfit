@@ -205,6 +205,7 @@ export default function HeaderClient({ viewer, categories, cartCount }) {
             <button
               type="button"
               className="shopmate-cart-shdad"
+              
               onClick={openSearch}
               aria-label="Search products"
               title="Search (Ctrl K)"

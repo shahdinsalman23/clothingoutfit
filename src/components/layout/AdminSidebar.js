@@ -33,6 +33,7 @@ export default function AdminSidebar({ isOpen, onClose, profile }) {
    useEffect(() => {
       setImageFailed(false);
     }, [profile?.avatar_url]);
+    
 
 
   const navItems = [
